@@ -8,15 +8,16 @@
     android:orientation="vertical"
     android:background="#EE0600AA"
     tools:context=".ItemActivity">
+
     <TextView
         android:id="@+id/item_list_title_one"
-        android:textSize="30sp"
-        android:textStyle="bold"
-        android:paddingHorizontal="20dp"
-        android:paddingEnd="10dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="TextView" />
+        android:paddingHorizontal="20dp"
+        android:paddingEnd="10dp"
+        android:text="TextView"
+        android:textSize="30sp"
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/item_list_text"

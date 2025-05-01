@@ -32,6 +32,7 @@ class IteamsActivity2 : AppCompatActivity() {
             "В течение 2 часов вы получаете 1д10 временных хитов",
             150))
 
+
         itemsList.layoutManager = LinearLayoutManager(this)
         itemsList.adapter = IteamsAdapter(items, this)
 
